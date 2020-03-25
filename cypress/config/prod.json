@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://frontend.company.net/",
+  "env": {
+    "host": "srv-prod.companylogin.com",
+    "servicesHost": "companyId-prod.services.company.com",
+    "backendHost": "prod.company.io",
+    "companyName": "Test Prod Company",
+    "companyId": "CO1c83cc",
+    "orgId": "E52F3E23",
+    "adminUsername": "adminUser@company.com",
+    "adminPassword": "<pass>",
+    "developerUsername": "devUser@company.com",
+    "developerPassword": "<pass>"
+  }
+}

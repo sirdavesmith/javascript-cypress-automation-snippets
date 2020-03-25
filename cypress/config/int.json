@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://frontend-integration.company.net/",
+  "env": {
+    "host": "srv-int.companylogin.com",
+    "servicesHost": "companyId-int.services.company.com",
+    "backendHost": "int.company.io",
+    "companyName": "Test Integration Company",
+    "companyId": "CO2f75cd",
+    "orgId": "E52F3E23",
+    "adminUsername": "adminUser@company.com",
+    "adminPassword": "<pass>",
+    "developerUsername": "devUser@company.com",
+    "developerPassword": "<pass>"
+  }
+}

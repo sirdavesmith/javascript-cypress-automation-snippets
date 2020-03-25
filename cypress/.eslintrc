@@ -1,0 +1,41 @@
+{
+  "env": {
+    "browser": true,
+    "cypress/globals": true,
+    "es6": true,
+    "node": true
+  },
+  "globals": {
+    "React": true
+  },
+  "plugins": [
+    "cypress",
+    "react"
+  ],
+  "rules": {
+    "camelcase": [0, {"properties": "always"}],
+    "indent": ["error", 2, {
+      "SwitchCase": 1,
+      "MemberExpression": "off",
+      "ignoredNodes": ["ConditionalExpression"],
+      "ignoreComments": true
+    }],
+    "semi": [2, "always"],
+    "keyword-spacing": [2],
+    "space-before-function-paren": [2, "never"],
+    "space-before-blocks": [2, "always"],
+    "space-infix-ops": [2, {"int32Hint": false}],
+    "quotes": [1, "single", "avoid-escape"],
+    "max-len": [2, 120, 4, {
+      "ignoreStrings": true,
+      "ignoreTrailingComments": true
+    }],
+    "strict": 0,
+    "comma-style": [2],
+    "one-var": [2, "never"],
+    "brace-style": [2, "1tbs", { "allowSingleLine": true }],
+    "consistent-this": [0, "self"],
+    "no-undef": 2,
+    "no-unused-vars": 2
+  }
+}

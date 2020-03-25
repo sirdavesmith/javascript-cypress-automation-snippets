@@ -1,0 +1,45 @@
+{
+  "name": "javascript-cypress-automation-snippets",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ./app ./cypress --ext .js,.jsx",
+    "test-isolated": "./cypress/ci-scripts/run-tests-isolated.sh",
+    "test-local": "cypress open --env configFile=local",
+    "test-qe": "cypress open --env configFile=qe",
+    "test-int": "cypress open --env configFile=int",
+    "test-prod": "cypress open --env configFile=prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.acme.com:javascript-cypress-automation-snippets\n.git"
+  },
+  "dependencies": {
+    "cypress": "4.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-react": "^7.9.4",
+    "babel-eslint": "^10.1.0",
+    "classnames": "^2.2.6",
+    "cypress-plugin-retries": "^1.5.2",
+    "eslint": "^6.8.0",
+    "eslint-plugin-cypress": "^2.10.3",
+    "eslint-plugin-react": "^7.19.0",
+    "husky": "^4.2.3",
+    "mocha": "^7.1.1",
+    "mocha-junit-reporter": "^1.23.3",
+    "mocha-multi-reporters": "^1.1.7",
+    "mochawesome": "^5.0.0",
+    "react": "^16.13.1",
+    "redux": "^4.0.5",
+    "request-promise-native": "^1.0.8",
+    "shortid": "^2.2.15",
+    "webpack": "^4.42.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint"
+    }
+  }
+}

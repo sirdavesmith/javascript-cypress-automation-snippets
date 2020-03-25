@@ -1,0 +1,4 @@
+{
+  "hostComboBox": "[data-test-id='newEnvironmentHostTypeComboBox']",
+  "nameTextfield": "[data-test-id='newEnvironmentNameTextfield']"
+}

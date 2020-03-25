@@ -1,0 +1,9 @@
+{
+  "encryptedPrivateKeyTextfield": "[data-test-id='hostEncryptedPrivateKeyTextfield']",
+  "nameTextfield": "[data-test-id='hostNameTextfield']",
+  "pathTextfield": "[data-test-id='hostPathTextfield']",
+  "portTextfield": "[data-test-id='hostPortTextfield']",
+  "serverTextfield": "[data-test-id='hostServerTextfield']",
+  "typeComboBoxButton": "[data-test-id='hostTypeComboBox'] > button",
+  "usernameTextfield": "[data-test-id='hostUsernameTextfield']"
+}

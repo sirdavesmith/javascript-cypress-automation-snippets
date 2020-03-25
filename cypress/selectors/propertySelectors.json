@@ -1,0 +1,8 @@
+{
+  "developmentCheckbox": "[data-test-id='developmentCheckbox']",
+  "domainRemoveButton": "[data-test-id='domainRemoveButton']",
+  "domainTextfield": "[data-test-id='domainTextfield']",
+  "nameTextfield": "[data-test-id='nameTextfield']",
+  "undefinedVarsReturnEmptyCheckbox": "[data-test-id='undefinedVarsReturnEmptyCheckbox']",
+  "webPlatformButton": "[data-test-id='webPlatformButton']"
+}

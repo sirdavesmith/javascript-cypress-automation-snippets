@@ -1,0 +1,19 @@
+# The intent for this file is for it to create an image that will
+# live on artifactory. So that build servers can use the built image from there
+# to speed up the builds.
+
+FROM cypress/browsers:node12.13.0-chrome80-ff74
+
+ENV APP_BASE_DIR /srv
+WORKDIR /srv/frontend
+RUN mkdir -p /srv/frontend
+RUN mkdir -p /srv/package-compare
+RUN npm install --global cypress@4.2.0
+
+COPY package.json package-lock.json .npmrc ./
+COPY package.json package-lock.json /srv/package-compare/
+RUN IGNORE_PREINSTALL=true npm ci
+# the dev null here is just hiding the errors from these commands
+# this is fine we are just trying to precache some of the needed packages
+RUN npx mochawesome-merge@4.0.3 2>/dev/null || exit 0
+RUN npx mochawesome-report-generator@4.1.0 2>/dev/null || exit 0

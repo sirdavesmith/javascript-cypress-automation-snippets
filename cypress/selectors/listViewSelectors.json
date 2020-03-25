@@ -1,0 +1,17 @@
+{
+  "extensionInstallButton": "[data-test-id='extensionInstallButton']",
+  "extensionInstallSplitButton": "[data-test-id='extensionInstallSplitButton']",
+  "nextResultsButton": "[data-test-id='listViewNextResultsButton']",
+  "previousResultsButton": "[data-test-id='listViewPreviousResultsButton']",
+  "rowCheckbox": "td [type='checkbox']",
+  "searchTextfield": "[data-test-id='listViewSearchTextfield']",
+  "selectAllCheckbox": "th [type='checkbox']",
+  "status": {
+    "lightIcon": {
+      "disabled": ".reactView-StatusLight.reactView-StatusLight--notice",
+      "enabled": ".reactView-StatusLight.reactView-StatusLight--active"
+    }
+  },
+  "tableActions": ".TableActions",
+  "visibleTableLoader": "[data-test-id='listViewTableLoader']:not(.u-hidden)"
+}

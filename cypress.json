@@ -1,0 +1,21 @@
+{
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 12000,
+  "modifyObstructiveCode": false,
+  "video": false,
+  "viewportHeight": 1280,
+  "viewportWidth": 1440,
+  "watchForFileChanges": true,
+  "numTestsKeptInMemory": 50,
+  "env": {
+    "clientId": "App-KEY",
+    "clientScope": "<scope>"
+  },
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress-test-results/json",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  }
+}

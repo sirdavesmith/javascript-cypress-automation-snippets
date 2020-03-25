@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://frontend-qe.company.net/",
+  "env": {
+    "host": "srv-qe.companylogin.com",
+    "servicesHost": "companyId-qe.services.company.com",
+    "backendHost": "qe.company.io",
+    "companyName": "Test QE Company",
+    "companyId": "CO3d33bf",
+    "orgId": "233432C5",
+    "adminUsername": "adminUser@company.com",
+    "adminPassword": "<pass>",
+    "developerUsername": "devUser@company.com",
+    "developerPassword": "<pass>"
+  }
+}

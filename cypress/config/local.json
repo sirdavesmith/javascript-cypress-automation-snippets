@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://localhost:9002/",
+  "env": {
+    "host": "srv-dev.companylogin.com",
+    "servicesHost": "companyId-dev.services.company.com",
+    "backendHost": "dev.company.io",
+    "companyName": "Test Local Company",
+    "companyId": "CO3d33bf",
+    "orgId": "233432C5",
+    "adminUsername": "adminUser@company.com",
+    "adminPassword": "<pass>",
+    "developerUsername": "devUser@company.com",
+    "developerPassword": "<pass>"
+  }
+}

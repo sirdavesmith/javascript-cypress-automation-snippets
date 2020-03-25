@@ -1,0 +1,28 @@
+{
+  "actionButton": ".reactView-ActionButton",
+  "breadcrumb": ".reactView-Heading--pageTitle > .reactView-Breadcrumbs-itemLink",
+  "button": ".reactView-Button",
+  "clearButton": ".reactView-ClearButton",
+  "cycleButton": ".reactView-CycleButton",
+  "delegateIframe": "[data-test-id='delegateIframe']",
+  "dialog": {
+    "footer": ".reactView-Dialog-footer",
+    "header": ".reactView-Dialog-header"
+  },
+  "editActions": ".actionBar",
+  "editContent": ".propertyContent",
+  "fieldButton": ".reactView-FieldButton",
+  "heading": ".reactView-Heading",
+  "listItem": "li",
+  "logicButton": ".reactView-LogicButton",
+  "moreActionsButton": "[data-test-id='moreActionsMenuButton']",
+  "popover": ".reactView-Popover",
+  "splitButton": ".reactView-SplitButton",
+  "tabList": {
+    "environments": "[data-test-id='appEnvironmentsTab']",
+    "hosts": "[data-test-id='appHostsTab']",
+    "overview": "[data-test-id='appOverviewTab']"
+  },
+  "tooltip": ".reactView-Tooltip",
+  "toggleSwitch": ".reactView-ToggleSwitch"
+}
