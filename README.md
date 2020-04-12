@@ -1,6 +1,6 @@
 # Cypress JavaScript Framework Snippets
 
-Collection of personal snippets that suggest ideas for how a Cypress framework could look 
+Collection of snippets that suggest ideas for how a Cypress framework could look 
 
 Note: These are just snippets for demo purposes - this project won't run
 
